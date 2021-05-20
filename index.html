@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Channel</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <script src="https://kit.fontawesome.com/6853ce8979.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="logo" src="./assets/logo.svg" alt="logo bd">
+        </a>
+        <nav class="navegacion">
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="./assets/icono-hamburgesa.svg" alt="icono hamburgesa">
+            </label>
+            <ul>
+                <li><a href="#episodios">Episodios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#entrevistas">Entrevistas</a></li>
+                <li><a href="#topicos">Tópicos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="contenedorPrimario">
+            <h1 class="titulo noMargin">Hello <span class="worldTachado">world</span> pale blue dot<span class="puntoAzul">.</span></h1>
+            <div class="contenedorTexto">
+                <p class="noMargin">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+            </div>
+            <button class="boton"><a href="#nosotros">Conocé Más</a></button>
+        </div><!--.contenedorPrimario-->
+        <section id="episodios">
+            <div class="contenedorPodcast mascaraContenedor">
+                <h2 class="noMargin">Episodios</h2>
+                <div class="podcasts">
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </section><!--section podcasts-->
+        <section id="nosotros">
+            <div class="contenedorNosotros">
+                <img src="./assets/phone.png" alt="imagen telefono">
+                <div class="nosotrosTexto">
+                    <h2>De dónde venimos</h2>
+                    <p>
+                        Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. 
+                    </p>
+                    <p>
+                        Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+                    </p>
+                </div>
+            </div>           
+        </section><!--section nosotros-->
+        <section id="entrevistas">
+            <div class="contenedorInvitados">
+                <h2>Invitadas/os estelares</h2>
+                <div class="contenedorImagenes">
+                    <img src="./assets/grace-hopper.png" alt="imagen invitada">
+                    <img src="./assets/Katie-Bouman.png" alt="imagen invitada">
+                    <img src="./assets/Margaret_Hamilton.png" alt="imagen invitada">
+                    <img src="./assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="imagen invitada">
+                    <img src="./assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="imagen invitada">
+                    <img src="./assets/susan-kare.png" alt="imagen invitada">
+                </div>
+            </div>    
+        </section><!--section entrevistas--> 
+        <section id="topicos">
+            <div class="contenedorTopicos">
+                <h2>Algunos de nuestros temas</h2>
+                <div class="topicos">
+                    <div class="topico">
+                        <img src="./assets/icon1.svg" alt="imagen topico">
+                        <p>Trabajo remoto</p>
+                    </div>
+                    <div class="topico">
+                        <img src="./assets/icon2.svg" alt="imagen topico">
+                        <p>Repensando la programación</p>
+                    </div>
+                    <div class="topico">
+                        <img src="./assets/icon3.svg" alt="imagen topico">
+                        <p>Bases del código</p>
+                    </div>
+                    <div class="topico">
+                        <img src="./assets/icon4.svg" alt="imagen topico">
+                        <p>Seguridad informática</p>
+                    </div>
+                </div>
+            </div>
+        </section><!--section topicos-->
+        <div class="contenedorNovedades mascaraContenedorNovedades">
+            <div class="novedades">
+                <h2>¿Querés las últimas novedades?</h2>
+                <div class="contenedorBoton">
+                    <button class="boton"><a href="#episodios">escuchá los episodios</a></button>
+                </div>
+            </div>
+        </div><!--.contenedorNovedades-->
+    </main>
+    <footer class="footer">
+        <p>&copy 2019 — Hello blue pale dot</p>
+        <div class="iconos">
+            <a href="#"><i class="fab fa-spotify"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
