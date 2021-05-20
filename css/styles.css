@@ -112,6 +112,7 @@ label {
         padding-top: 1.6rem;
         height: 22.4rem;
         display: block;
+        overflow: hidden;
         transition: all 0.5s ease-in-out;
     }
     .navegacion li {
