@@ -203,6 +203,11 @@ label {
 .boton:hover a {
     color: var(--blanco);
 }
+@media screen and (max-width: 1200px) {
+    .contenedorPrimario {
+        margin-left: 1.6rem;
+    }
+}
 @media screen and (max-width: 900px) {
     .contenedorPrimario {
         margin-left: 1.6rem;
@@ -258,6 +263,11 @@ label {
     width: 58.4rem;
     height: 23.2rem;
     justify-self: center;
+}
+@media screen and (max-width: 1200px) {
+    .podcasts iframe {
+        width: 35rem;
+    }
 }
 @media screen and (max-width: 900px) {
     .contenedorPodcast {
@@ -363,6 +373,11 @@ line-height: 2.4rem;
 .topico img {
     width: 10.4rem;
 }
+@media screen and (max-width: 1200px) {
+    .topicos {
+        margin: 0 2rem;
+    }
+    }
 @media screen and (max-width: 900px) {
     .contenedorTopicos h2 {
         font-size: 3.6rem;
